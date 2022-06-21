@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url(CursedTimerULiL.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'Cursed Timer ULiL';
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #00296b;
+}
+
+.team-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffda0a;
+    width: 149px;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.scoreboard {
+    width: 170px;
+    height: 120px;
+    border-radius: 5px;
+    background: #080001;
+    margin-bottom: 10px;
+}
+
+.team {
+    text-align: center;
+}
+
+.score {
+    color: #F94F6D;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    font-size: 90px;
+    margin-top: 10px;
+}
+
+.score-btn {
+    margin-bottom: 25px;
+    padding: 8px 8px;
+    border: 2px solid #9AABD8;
+    background: #00296b;
+    color: #9AABD8;
+    border-radius: 5px;
+}
+
+#qt-text {
+    font-size: 30px;
+}
+
+#qt-btn {
+    padding: 7px 13px;
+    border: 0px;
+    border-radius: 3px;
+}
+
+#newGame-btn {
+    padding: 7px 13px;
+    background: #55a630;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.highlight {
+    text-shadow: 2px 2px 4px #ffffb7;
+}
+
+#settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

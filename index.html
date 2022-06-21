@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class='team'>
+            <h3 class="team-header" id="home-header">HOME</h3>
+            <div class="scoreboard">
+                <p class="score" id="home-score"> 0 </p>
+            </div>
+            <div>
+                <button class="score-btn" onclick="freeThrowHome()">+1</button>
+                <button class="score-btn" onclick="layUpHome()">+2</button>
+                <button class="score-btn" onclick="CurryFromHome()">+3</button>
+            </div>
+        </div>
+        <div id="settings">
+            <p id="qt-text">1st Quarter</p>
+            <button id="qt-btn" onclick="changeQT()">Change QT</button>
+            <button id="newGame-btn" onclick="reset()">New Game</button>
+        </div>
+        <div class='team'>
+            <h3 class="team-header" id="guest-header">GUEST</h3>
+            <div class="scoreboard">
+                <p class="score" id="guest-score"> 0 </p>
+            </div>
+            <div>
+                <button class="score-btn" onclick="freeThrowGuest()">+1</button>
+                <button class="score-btn" onclick="layUpGuest()">+2</button>
+                <button class="score-btn" onclick="CurryFromGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
